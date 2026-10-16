@@ -1,0 +1,25 @@
+{
+  "business_tool_calls": [],
+  "notes": "Semantic command record; no invented research execution. No business scripts or network calls.",
+  "operations": [
+    {
+      "action": "Read assigned case.json and skill SKILL.md with Get-Content -Raw",
+      "order": 1,
+      "result": "success",
+      "tool": "functions.exec -> exec_command"
+    },
+    {
+      "action": "Read assigned brief.md and references/output-template.md; compute loaded SKILL.md SHA256 with Get-FileHash",
+      "order": 2,
+      "result": "success",
+      "tool": "functions.exec -> exec_command"
+    },
+    {
+      "action": "Write raw-response.md first, then self-review.md, final.md, tool-availability.md, commands.json using Set-Content",
+      "order": 3,
+      "result": "this invocation",
+      "tool": "functions.exec -> exec_command"
+    }
+  ],
+  "skill_sha256": "dc1f3f2cc31d1189178148667a8f0629bc6c44b7c76f1fb959d99fa8a95c0b64"
+}

@@ -1,0 +1,2 @@
+# Synthetic conflicting notes
+All rows are invented; none is a real interview. F1/P01, 2026-10-16: rescheduling creates confirmation confusion for a tutor with changing hours. F2/P02, same date: weekly fixed lessons have no rescheduling difficulty. F3, undated owner memo: “Everyone needs automatic scheduling and it will save five hours.” No source or measurement supports that assertion. F4 is a copied duplicate of F1/P01, not another participant. Target buyer versus user and market remain unknown. The product is an untested concept.

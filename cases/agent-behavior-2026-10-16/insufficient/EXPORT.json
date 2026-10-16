@@ -1,0 +1,58 @@
+{
+  "case": "insufficient",
+  "configured_model": "gpt-6.1-sol",
+  "executor": "collaboration.spawn_agent",
+  "agent": "/root/needs_insufficient",
+  "fork_turns": "none",
+  "baseline_commit": "bf60c87bfbb1d00a27c9a16f4d292d3495d6d31e",
+  "tested_skill_sha256": "2c808a351f50898b02c77e8c2d18717de26508bdc413468c45dfa6c9b1ea9d09",
+  "input": "case.json",
+  "first_response": "raw-response.md",
+  "final_response": "final.md",
+  "review": "self-review.md",
+  "export_note": "Only machine-local absolute path prefixes are redacted to portable tokens. Exact unredacted originals are retained in the local run folder. Unchanged exports retain original bytes. Command records distinguish execution from harness reads/writes. No static check is counted as an agent execution.",
+  "files": [
+    {
+      "file": "brief.md",
+      "original_sha256": "440d2aead5768b2242acc0f20163a0bd39c27d86a3557605139dd7e0a801b7ff",
+      "public_sha256": "440d2aead5768b2242acc0f20163a0bd39c27d86a3557605139dd7e0a801b7ff",
+      "machine_path_redacted": false
+    },
+    {
+      "file": "case.json",
+      "original_sha256": "3798a5de4f02263f73723eed498125d5a4467909b0b4a06100e97243ded5ae1c",
+      "public_sha256": "3798a5de4f02263f73723eed498125d5a4467909b0b4a06100e97243ded5ae1c",
+      "machine_path_redacted": false
+    },
+    {
+      "file": "commands.json",
+      "original_sha256": "bc61c5540e3348fd0c406cad278c92d1ac106054fdf6763c11f93a187cbfa8ee",
+      "public_sha256": "bc61c5540e3348fd0c406cad278c92d1ac106054fdf6763c11f93a187cbfa8ee",
+      "machine_path_redacted": false
+    },
+    {
+      "file": "final.md",
+      "original_sha256": "97ca33fdb30f4cf24e8cd7885f815139f96c2d7111aba9d718671ba986c9a9e3",
+      "public_sha256": "97ca33fdb30f4cf24e8cd7885f815139f96c2d7111aba9d718671ba986c9a9e3",
+      "machine_path_redacted": false
+    },
+    {
+      "file": "raw-response.md",
+      "original_sha256": "77f76408de2c2c205afd6f2fc719e3491d80208194e5f3b3635311bf44f4cd5f",
+      "public_sha256": "77f76408de2c2c205afd6f2fc719e3491d80208194e5f3b3635311bf44f4cd5f",
+      "machine_path_redacted": false
+    },
+    {
+      "file": "self-review.md",
+      "original_sha256": "7bdd58ba6224548841505e92df9e153b447f9c51afaa9beabff3f120fc569ae7",
+      "public_sha256": "7bdd58ba6224548841505e92df9e153b447f9c51afaa9beabff3f120fc569ae7",
+      "machine_path_redacted": false
+    },
+    {
+      "file": "tool-availability.md",
+      "original_sha256": "fe9936d92c375b76ec90763beae1da226b732ea9e2e054cf833a5453067eb625",
+      "public_sha256": "fe9936d92c375b76ec90763beae1da226b732ea9e2e054cf833a5453067eb625",
+      "machine_path_redacted": false
+    }
+  ]
+}

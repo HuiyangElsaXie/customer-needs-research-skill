@@ -1,5 +1,7 @@
 # Customer Needs Research / 客户需求研究
 
+[本轮真实 Sol 6.1 场景、首稿与审阅 / agent behavior evidence](cases/agent-behavior-2026-10-16/README.md) — 合成输入，不代表真实调研或业务效果。
+
 Start with the [LanternDesk synthetic needs brief](examples/fictional-example.md): inputs → need clusters → trade-offs → counterevidence → next check. [Blank brief](references/output-template.md) · [Skill entry](SKILL.md). / 先看合成需求示例，再填简报。
 
 ## English

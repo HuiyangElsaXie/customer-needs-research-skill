@@ -1,0 +1,12 @@
+[
+  {
+    "sequence": 5,
+    "tool": "functions.exec -> exec_command",
+    "shell": "powershell",
+    "command_summary": "Copy-Item final.md to final-v1.md; read final.md with System.IO.File.ReadAllText; replace exact text 'changing parent work hours' with 'shifting work hours'; write final.md; save correction-review.md and repair-commands.json",
+    "reason": "Same-agent factual repair after independent root AI review identified that F1 does not specify whose work hours shift.",
+    "preserved": ["raw-response.md", "self-review.md", "commands.json", "final-v1.md"],
+    "original_execution_records": "commands.json is unchanged; this separate ledger appends the repair history.",
+    "note": "This ledger describes its containing save operation. Tool completion determines success; no business script, network action, repository mutation, or other-case change was performed."
+  }
+]

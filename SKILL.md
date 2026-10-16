@@ -5,6 +5,8 @@ description: Research customer problems, unmet needs, workarounds, and purchase 
 
 # Customer Needs Research
 
+Optional first-use orientation: [LanternDesk synthetic needs brief](examples/fictional-example.md) shows inputs, clusters, trade-offs and counterevidence. Use the [blank brief](references/output-template.md) for a real task. The example is not real research; consult it only when its format helps. Keep this root skill folder with its references, examples and upstream notices.
+
 Local personal-use first version. Adapted on 2026-10-16 from Nicola Baldo's MIT-licensed user-pain-research module; see THIRD_PARTY_NOTICES.md. Changed scope, intake, evidence handling, ranking, and deliverables for a marketing workflow.
 
 ## Intake and permissions
@@ -14,6 +16,8 @@ Do not install integrations, request credentials, contact customers, submit form
 
 ## Evidence rules
 Separate observed evidence, interpretation, and untested hypothesis. For every important claim record a source ID, exact URL or supplied-document locator, publication date when visible, and access date. Mark missing dates unknown. Search snippets are discovery leads, not verified quotes. Never invent interviews, respondents, quotes, market sizes, pricing, statistics, or validation results. Distinguish absence of evidence from evidence of absence. Keep quotations short and attributable. Explain contradictory evidence and sampling bias.
+
+Preserve ambiguity in a source note: do not assign an omitted actor, event detail, cause or outcome merely to make the synthesis more concrete. Mark it unknown or keep the source's neutral wording.
 
 ## Workflow
 1. Frame a business decision in one sentence, such as which customer problem the landing page should address. Identify product, segment, buying situation, geography/language, and time window. Default to the past 12 months for public evidence, with exact boundaries; older supplied interviews can be labeled historical.

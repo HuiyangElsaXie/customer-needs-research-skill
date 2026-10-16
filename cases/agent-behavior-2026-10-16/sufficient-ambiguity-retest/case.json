@@ -1,0 +1,21 @@
+{
+  "case": "sufficient-ambiguity-retest",
+  "repository": "customer-needs-research-skill",
+  "baseline_commit": "bf60c87bfbb1d00a27c9a16f4d292d3495d6d31e",
+  "tested_skill_sha256": "dc1f3f2cc31d1189178148667a8f0629bc6c44b7c76f1fb959d99fa8a95c0b64",
+  "skill_entry": "SKILL.md",
+  "synthetic": true,
+  "model_requested": "gpt-6.1-sol",
+  "request": "Use the skill to choose one customer problem to investigate for the landing page, with a needs brief and next validation step. Use only the supplied permitted notes.",
+  "input_files": [
+    "brief.md"
+  ],
+  "tools": {
+    "harness_read_and_write": "Allowed only in this case folder plus read-only skill/repository references",
+    "offline_python_for_business_task": false,
+    "business_network_search_browsing": false,
+    "paid_calls_or_new_accounts": false,
+    "site_mutations_or_git": false
+  },
+  "execution_note": "Business tool limits are scenario permissions on a tool-capable host, not a claim that host tools do not exist. A separate fresh Sol 6.1 agent generates the deliverable; static checks are recorded separately."
+}

@@ -1,0 +1,21 @@
+{
+  "case": "conflict-no-tools",
+  "repository": "customer-needs-research-skill",
+  "baseline_commit": "bf60c87bfbb1d00a27c9a16f4d292d3495d6d31e",
+  "tested_skill_sha256": "2c808a351f50898b02c77e8c2d18717de26508bdc413468c45dfa6c9b1ea9d09",
+  "skill_entry": "SKILL.md",
+  "synthetic": true,
+  "model_requested": "gpt-6.1-sol",
+  "request": "Use only these notes to recommend the next customer-research action and a limited needs brief. No browsing, interviews, paid research or business scripts are authorized.",
+  "input_files": [
+    "brief.md"
+  ],
+  "tools": {
+    "harness_read_and_write": "Allowed only in this case folder plus read-only skill/repository references",
+    "offline_python_for_business_task": false,
+    "business_network_search_browsing": false,
+    "paid_calls_or_new_accounts": false,
+    "site_mutations_or_git": false
+  },
+  "execution_note": "Business tool limits are scenario permissions on a tool-capable host, not a claim that host tools do not exist. A separate fresh Sol 6.1 agent generates the deliverable; static checks are recorded separately."
+}

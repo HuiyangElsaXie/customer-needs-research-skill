@@ -1,0 +1,6 @@
+[
+  {"call":1,"tool":"tools.exec_command via functions.exec","operations":["Get-Content case.json","Get-Content assigned SKILL.md"],"purpose":"harness read","exit_code":0},
+  {"call":2,"tool":"tools.exec_command via functions.exec","operations":["Get-Content brief.md","Get-Content references/output-template.md","Get-FileHash SKILL.md -Algorithm SHA256"],"purpose":"harness read and hash","exit_code":0},
+  {"call":3,"tool":"tools.exec_command via functions.exec","operations":["Set-Content raw-response.md"],"purpose":"preserve initial response before review","exit_code":0},
+  {"call":4,"tool":"tools.exec_command via functions.exec","operations":["Set-Content self-review.md","Copy-Item raw-response.md to final.md","Set-Content tool-availability.md","Set-Content commands.json"],"purpose":"harness artifacts","status":"invoked; completion in host tool result"}
+]
